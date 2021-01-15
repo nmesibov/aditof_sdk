@@ -27,6 +27,7 @@ option(WITH_ROS "Build ros bindings?" OFF)
 option(WITH_NETWORK "Build network interface?" ON)
 option(USE_CHICONY "Use Chicony 006 camera?" OFF)
 option(USE_FXTOF1 "Use FXTOF1 camera?" OFF)
+option(USE_CMOS "Use CMOS camera?" OFF)
 option(WITH_TOOLS "Build tools?" OFF)
 
 if (WITH_NETWORK)
